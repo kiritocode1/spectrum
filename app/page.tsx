@@ -579,8 +579,8 @@ export default function Page() {
           <div className="nav-item nav-top-left">Cosmic Spectrum</div>
           <div className="nav-item nav-top-right">
             <span>
-              <a href="mailto:hi@filip.fyi" className="email-link">
-                hi@filip.fyi
+              <a href="https://aryank.space" className="email-link">
+                Made By Blank
               </a>{" "}
               — 2024.25
             </span>
