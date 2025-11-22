@@ -1,0 +1,13 @@
+# Historical Context
+
+## Session: 2025-11-22
+
+### Changes
+
+-   Fixed CSS build error where `@import` was placed after other rules.
+-   Verified `app/globals.css` content to ensure the `@import` is at the top (line 3).
+-   Cleared `.next` build cache to resolve persistent stale error messages.
+
+### Files Updated
+
+-   `app/globals.css`: Moved `@import url("https://fonts.cdnfonts.com/css/pp-neue-montreal");` from line 6 to line 3, preceding `@custom-variant`.

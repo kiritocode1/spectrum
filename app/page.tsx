@@ -255,7 +255,9 @@ export default function Page() {
     document.querySelectorAll(".color-btn").forEach((btn) => {
       btn.addEventListener("click", function () {
         document.querySelectorAll(".color-btn").forEach((b) => b.classList.remove("active"))
+        // @ts-ignore
         this.classList.add("active")
+        // @ts-ignore
         currentThemeRef.current = this.getAttribute("data-theme") || "original"
         updateColors(currentThemeRef.current)
         setTimeout(() => {
@@ -773,7 +775,7 @@ export default function Page() {
           <div className="main-title split-text">
             Where Light Becomes Color
             <br />
-            Across the Infinite Spectrum
+            Across the Infinite Spectrum in a Blank Space
           </div>
           <div className="text-grid">
             <div className="text-column">
